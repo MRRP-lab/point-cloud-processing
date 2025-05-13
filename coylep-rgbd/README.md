@@ -3,9 +3,18 @@
 
 - Install Python 3.10
 - Run the following to setup and enter the virtual environment
+
+Windows:
 ```
 py -3.10 -m venv venv
 venv\Scripts\activate
+
+```
+Linux:
+```
+py -3.10 -m venv venv
+venv\Scripts\activate
+
 ```
 - Pip install the required packages
 ```
