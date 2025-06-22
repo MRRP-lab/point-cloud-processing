@@ -32,6 +32,7 @@ Thumbs.db
 *.pcd
 *.bin
 *.zip
+*.las
 
 # Ignore camera/depth image dumps if applicable
 *.png

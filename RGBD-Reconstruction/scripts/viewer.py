@@ -5,7 +5,7 @@ import open3d as o3d
 import numpy as np
 
 # load tbe LAS file using laspy
-las_file = laspy.read('RGBD-Reconstruction/data/raw/forest.las')
+las_file = laspy.read('Robotics_Lab\\point-cloud-processing\\RGBD-Reconstruction\\data\\raw\\forest.las')
 
 # extract XYZ coordinates from the LAS file 
 points = np.vstack((las_file.x, las_file.y, las_file.z,)).transpose()
